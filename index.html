@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PROJECT</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
+    <title>YUZIE'S RESTAURANT</title>
+</head>
+<body>
+    <body>
+        <!-- Header -->
+        <div class="w3-bar w3-black">
+            <a href="#" class="w3-bar-item w3-button">HOME</a>
+            <a href="#location" class="w3-bar-item w3-button w3-hide-small w3-right">LOCATION</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-right"> CONTACT</a>
+            <a href="#menu" class="w3-bar-item w3-button w3-hide-small w3-right"> MENU</a>
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-right"> ABOUT</a>
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+            
+
+             <div id="idnavbar" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium">
+                <a href="#about" class="w3-bar-item w3-button w3-right">ABOUT</a>
+                <a href="#menu" class="w3-bar-item w3-button w3-right">MENU</a>
+                <a href="#contact" class="w3-bar-item w3-button w3-right">CONTACT</a>
+                <a href="#location" class="w3-bar-item w3-button w3-right">LOCATION</a>
+            </div>
+            
+        <script>
+            function myFunction() {
+            var x = document.getElementById("idnavbar"); if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+            } else {
+            x.className = x.className.replace(" w3-show", "");
+            }
+            }
+        </script>
+        <div class="w3-header w3-container w3-black w3-padding-32 w3-center">
+            <img src="image6.jpeg" alt="Nature" style="width:100%;">
+            <h1 style="font-size:calc(8px + 4vw);">YUZIE'S RESTAURANT</h1>
+            <p style="font-size:calc(8px + 1vw);;">We only serve you the best food!</p>
+            </div>
+            <div class="w3-sand w3-grayscale w3-large">
+
+            <!-- About Section-->  
+<div class="w3-container" id="about">
+    <div class="w3-content" style="max-width:700px">
+      <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE RESTAURANT</span></h5>
+      <p>This restaurant named Yuzie was owned by my father. His name is Che Azazi bin Mohd Saad. He run this restaurant for 24 years already. He started this when his first child was born, which is my older sister. He started together with my mom. The idea of the restaurant name is the actually the combination my parent's name.</p>
+      <p>Our humble restaurant was served a breakfast meals such as roti canai, nasi lemak , peknga/lempeng, roti jala and many more. We aslo served many types of beverages. </p>
+     
+      <img src="image2.jpeg" style="width:100%;max-width:1000px" class="w3-margin-top">
+      <p><strong>Opening hours:</strong> Sunday-Friday from 7am to 1pm.</p>
+      <p><strong>Address:</strong> No.4 Bangunan Kemboja, Pendang Square, Pendang,Kedah</p>
+    </div>
+  </div>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-content" style="max-width:700px">
+      <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MENU</span></h5>
+      <h4>Roti Canai</h4>
+      <p class="w3-text-grey">Served with curry. RM 1.00</p><br>
+
+      <h4>Nasi Lemak</h4>
+      <p class="w3-text-grey">Served with boiled egg, papadom, sliced cucumber and "sambal". RM 3.00</p><br>
+    
+      <h4>Roti Jala</h4>
+      <p class="w3-text-grey">Served with chicken curry. RM 1.50</p><br>
+    
+      <h4>Peknga/Lempeng</h4>
+      <p class="w3-text-grey">Served with fish curry. RM 3.00</p><br>
+    
+    </div>
+    <div class="w3-center w3-col 18 w3-padding-large">
+      <img src="image01.jpeg" class="w3-round w3-image" alt="Menu" style="width:45%">
+    </div>
+  </div>
+  
+  <!--Contact Section-->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <div class="w3-content" style="max-width:700px"></div>
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">CONTACT</span></h5>
+    <hr class="w3-opacity">
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Pendang, Kedah Darul Aman.</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +0194257217 </p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: yuzie@gmail.com</p>
+    </div>
+
+    <!--Location Section-->
+    <div id="location" class="w3-container w3-row w3-black">
+      <div class="w3-content" style="max-width:700px"></div>
+      <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">LOCATION</span></h5>
+      <div class="container">
+      <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3968.037873454345!2d100.47461221476794!3d5.989522895661735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304b49a0211387ff%3A0x1483729e8516826!2sYuzie%20Roti%20Canai!5e0!3m2!1sen!2smy!4v1636275382196!5m2!1sen!2smy" 
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>"
+</div>
+<p>No.4,<br> Bangunan Kemboja,
+<br>Pendang Square,<br>06700 Pendang, <br>Kedah.
+</p>
+</div>
+<div class="w3-display-container w3-third w3-padding-24 w3-hide-small">
+<div class="w3-row w3-padding-32" style="height:500px">
+
+</div>
+</div>
+</div>
+<style>
+  .container { position: relative; width: 100%; overflow: hidden;
+padding-top: 56.25%;
+/* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe { position: absolute; top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+width: 100%;
+height: 100%; border: none;
+}
+</style>
+      
+<!-- Footer -->
+  <footer class="w3-container w3-khaki w3-center"> 
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+</div>
+</body>
+</html>
+</body>
+</html>
